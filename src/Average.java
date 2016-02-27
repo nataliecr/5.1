@@ -10,6 +10,11 @@ public class Average {
     double total = 0;
     int count = 0;
     
+    if (num == 0){
+      System.out.println("No numbers are entered except 0");
+      System.exit(0);
+    }
+    
     while (num != 0){
       if (num > 0)
         pos++;
